@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Cards from "./components/Cards";
 import SkillsDetails from "./components/SkillsDetails";
 import Experience from "./components/Experience";
-// import Projects from "./components/Projects";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Loader from "./components/Loader";
 
@@ -16,7 +16,7 @@ function App() {
       <Hero />
       <Cards />
       <SkillsDetails />
-      {/* <Projects /> */}
+      <Projects />
       <Experience />
       <Contact />
     </>

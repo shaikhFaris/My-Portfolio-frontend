@@ -40,7 +40,6 @@ function Contact() {
     // console.log("Form submitted!");
     console.log(userObj);
     console.log("Work in progress");
-    // setToggle(true);
     let ResFromServer = await fetch("http://localhost:3689/mail", {
       method: "POST",
       headers: {
@@ -59,7 +58,11 @@ function Contact() {
       .then((data) => {
         console.log("from server: ");
         console.log(data);
+        setToggle(true);
         return data;
+      })
+      .catch((err) => {
+        console.log("Error while sending data to server");
       });
     console.log("status: " + ResFromServer.status);
   };
@@ -72,15 +75,16 @@ function Contact() {
           id="toggle-div"
         >
           <div className=" bg-black rounded-3xl h-72 w-4/5 xl:h-1/2 xl:w-3/5">
-            <h4 className="text-3xl bg-black font-bold text-red-600 mt-12 mb-6 text-center xl:text-5xl xl:mb-12">
-              Work in Progress!
+            <h4 className="text-3xl bg-black font-bold text-green-500 mt-12 mb-6 text-center xl:text-5xl xl:mb-12">
+              Submitted Successfully
             </h4>
             <p className="text-center text-sm mx-2 bg-black xl:text-lg xl:mx-12 ">
-              The code for backend has not been be deployed yet. This website
-              will be updated in the future. Sorry for the inconvenience.
+              Your form has been submitted. This will be mailed to Faris. Please
+              dont <span className="text-red-600 font-bold">spam</span> the
+              submit button.
             </p>
             <button
-              className="bg-black w-2/3 border-[2px] h-10 mt-8 border-white mx-auto block rounded-xl font-bold text-green-500 xl:w-3/5 xl:h-12 xl:mt-16"
+              className="bg-black w-2/3 border-[2px] h-10 mt-8 border-white mx-auto block rounded-xl font-bold text-red-500 xl:w-3/5 xl:h-12 xl:mt-16 hover:bg-zinc-900"
               onClick={handleToggle}
             >
               back
