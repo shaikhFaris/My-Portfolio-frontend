@@ -12,12 +12,6 @@
       overflow: hidden;
     }
   }
-  @screen md {
-    .custom-vh-class {
-      height: calc(100vh - 60px); /* Adjust this height as needed */
-      overflow: hidden;
-    }
-  }
   @screen 2xl {
     .custom-vh-class {
       height: calc(100vh - 60px); /* Adjust this height as needed */

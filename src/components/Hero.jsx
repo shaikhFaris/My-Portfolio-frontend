@@ -168,7 +168,7 @@ function Hero() {
 
   return (
     <div className=" block custom-vh-class md:flex md:justify-center xl:flex my-3 xl:my-0 ">
-      <div className="hero-content  w-full my-5 mt-20 md:mt-14 md:w-2/5 xl:mt-20 xl:mb-0 xl:w-2/5 xl:h-full xl:ml-28 xl:mt-22 ">
+      <div className="hero-content  w-full my-5 mt-20 md:mb-16 md:mt-14 md:w-2/5 xl:mt-20 xl:mb-0 xl:w-2/5 xl:h-full xl:ml-28 xl:mt-22 ">
         <h1 className="text-4xl mx-3 mt-5 text-left font-extrabold  md:text-4xl xl:text-6xl xl:mb-9 2xl:text-7xl 2xl:mt-24 2xl:mb-5">
           Hi, I am <span className="text-purple-400">Faris </span>
         </h1>
