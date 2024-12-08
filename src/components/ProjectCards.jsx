@@ -31,7 +31,7 @@ const ProjectCards = () => {
             {cards.tags.map((tags, index) => (
               <div
                 key={index}
-                className="text-[9px] px-1 text-green-500 border-[1px] border-gray-500 rounded-3xl lg:text-[13px]"
+                className="text-[9px] px-1 text-green-500 border-[1px] border-gray-500 rounded-3xl lg:text-[11px] 2xl:text-[15px]"
               >
                 {tags}
               </div>

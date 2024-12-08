@@ -17,7 +17,7 @@ function ExpCards() {
               <div className="text-md font-light font-mono text-green-500 mb-3 mt-3 xl:mt-12 xl:text-2xl xl:mb-7">
                 {card.year}
               </div>
-              <div className=" bg-[#11092c]  rounded-lg hover:-translate-y-5 transition duration-500  h-64 w-full pt-3 pl-3 md:w-2/3 lg:w-2/5 xl:h-[21rem] xl:w-[45%] xl:pt-4 xl:pl-6">
+              <div className="bg-[#11092c]  rounded-lg hover:-translate-y-5 transition duration-500  h-64 w-full pt-3 pl-3 md:w-2/3 lg:w-2/5 xl:h-[21rem] xl:w-[45%] xl:pt-4 xl:pl-6">
                 <h2 className=" text-2xl bg-transparent font-bold xl:text-4xl ">
                   {card.companyPost}
                 </h2>
