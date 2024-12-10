@@ -14,10 +14,10 @@ function App() {
       <Loader />
       <Navabar />
       <Hero />
+      <Experience />
+      <Projects />
       <Cards />
       <SkillsDetails />
-      <Projects />
-      <Experience />
       <Contact />
     </>
   );

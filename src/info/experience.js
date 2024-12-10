@@ -1,10 +1,9 @@
-import walmart from "../assets/walmart.jpeg";
-import infosis from "../assets/infosis.jpeg";
+import dct from "../assets/DCT.png";
 
 const expObjs = [
   {
     year: "Oct 2024 - Nov 2024",
-    companyImg: walmart,
+    companyImg: dct,
     companyName: "Digital Creation Technology",
     companyPost: "Freelance Web Dev",
     message: [
@@ -14,8 +13,5 @@ const expObjs = [
     ],
   },
 ];
-
-// expObjs.map((element)=>{
-//     console.log(element)
-// })
+dct;
 export default expObjs;

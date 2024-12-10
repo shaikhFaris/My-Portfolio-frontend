@@ -13,7 +13,7 @@ function Cards() {
   return (
     <div>
       <div
-        className="my-6 p-3 mt-0 xl:mt-12 xl:ml-28 xl:mb-14 xl:p-0"
+        className="my-6 p-3 mt-0 xl:mt-32 xl:ml-28 xl:mb-14 xl:p-0"
         id="skills-section"
       >
         <h3 className="text-gray-600 my-2 xl:text-2xl xl:my-3 font-semibold 2xl:text-3xl ">

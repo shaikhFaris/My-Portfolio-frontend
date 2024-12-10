@@ -3,7 +3,7 @@ import ExpCards from "./ExpCards";
 
 function Experience() {
   return (
-    <div className="p-3 xl:ml-28 xl:mt-32 my-12 xl:p-0">
+    <div className="p-3 xl:ml-28 xl:mt-12 my-12 xl:p-0">
       <h3
         className="text-gray-600 my-2 xl:text-2xl xl:my-3 font-semibold"
         id="experience-section"
