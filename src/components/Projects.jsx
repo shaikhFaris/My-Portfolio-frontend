@@ -14,7 +14,7 @@ function Projects() {
         My <span className="text-purple-400 ">Projects.</span>
       </h1>
       <p className="text-[12px] text-gray-500 mb-12 md:text-left md:text-sm xl:text-left xl:text-gray-500 font-light xl:font-normal xl:text-base xl:w-10/12">
-        Some cool projects I have build using my skills.
+        Some cool projects I have built using my skills.
       </p>
       <ProjectCards />
     </div>

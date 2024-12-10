@@ -16,9 +16,21 @@ const ProjectCards = () => {
               alt=""
               className="h-16 w-16 rounded-full lg:h-20 lg:w-20"
             />
-            <div className="w-1/3 flex items-center justify-end gap-4 lg:mr-4">
-              <FaGithub size={25} />
-              {cards.projLink && <FaExternalLinkAlt size={25} />}
+            <div className="w-1/3 mr-2 flex items-center justify-end gap-4 lg:mr-4">
+              <a href={cards.projgithubLink} target="_blank">
+                <FaGithub
+                  size={25}
+                  className="lg:text-gray-500 lg:hover:text-white lg:duration-150"
+                />
+              </a>
+              {cards.projLink && (
+                <a href={cards.projLink} target="_blank">
+                  <FaExternalLinkAlt
+                    size={25}
+                    className="lg:text-gray-500 lg:hover:text-white lg:duration-150"
+                  />
+                </a>
+              )}
             </div>
           </div>
           <h3 className="w-full text-left text-2xl font-medium mt-5 lg:text-3xl">
