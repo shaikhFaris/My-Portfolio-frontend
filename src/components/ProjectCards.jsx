@@ -36,7 +36,7 @@ const ProjectCards = () => {
           <h3 className="w-full text-left text-2xl font-medium mt-5 lg:text-3xl">
             {cards.projName}
           </h3>
-          <p className="text-xs mt-3 mb-4 text-gray-400 lg:text-sm">
+          <p className="text-[10px] mt-3 mb-4 text-gray-500 md:text-[11px] lg:text-[12px] 2xl:text-base">
             {cards.projDetails}
           </p>
           <div className="flex flex-wrap gap-2 mb-2">

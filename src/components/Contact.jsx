@@ -13,7 +13,6 @@ function Contact() {
   });
 
   const handleUsername = (e) => {
-    // console.log(e.target.value);
     setuserObj({
       ...userObj,
       username: e.target.value,
