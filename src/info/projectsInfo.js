@@ -29,7 +29,7 @@ const projectObj = [
     projName: "Digilance",
     projDetails:
       "A full stack navigation website built on react using OpenStreetMaps. You can also search and select the destination location via the search bar. The step by step navigation with audio is yet to be developed.",
-    projgithubLink: "https://github.com/shaikhFaris/codeSnippets",
+    projgithubLink: "https://github.com/shaikhFaris/DIGILANCE",
     projLink: null,
     tags: [
       "react",
